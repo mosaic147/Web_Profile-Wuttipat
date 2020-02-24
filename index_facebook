@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wuttipat[617] B7-82 [Facebook]</title>
+    <link rel="stylesheet" href="style_facebook.css">
+</head>
+
+<body>
+    <div class="header_facebook">
+        <h1>Facebook</h1>
+    </div>
+    <div class="box" style="float:left;">
+        <div class="img">
+            <img src="mosaic_facebook.jpg" title="Wuttipat Kitcharoen" width="250" height="250" style="float:left;">
+        </div>
+        <div class="information" style="float:left;">
+            <h1>Wuttipat Kitcharoen</h1>
+            <p>Url here : https://www.facebook.com/profile.php?id=100010665375805</p>
+            <p> : Click here : </p>
+            <a href="https://www.facebook.com/profile.php?id=100010665375805">
+                <button class="button_f">FACEBOOK</button>
+            </a>
+        </div>
+
+    </div>
+    <div class="button">
+        <a href=" index.html">
+            <button class="click_back">home page</button>
+        </a>
+    </div>
+    <div class="footer">
+        <footer>Copyright &copy; 2019 by Wuttipat Kitcharoen - Privacy Policy</footer>
+    </div>
+</body>
+</html>
