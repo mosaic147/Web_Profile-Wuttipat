@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+
+    body{
+        background-color: #212121;
+        padding: 0px;
+        font-family: 'BenchNine', sans-serif;
+        text-align: center;
+    }
+
+.header{
+    background-color:wheat;
+    color: #212121;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 50px;
+    border: none;
+    text-transform: uppercase;
+    margin :40px 25px;
+    border-radius: 45px;
+}
+.hobby{  
+    color: gold;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 150px;
+    height: 150px;
+    transition: 0.3s;
+}
+.box{
+    width: 600px;
+    height:400px;
+    background-color: transparent;
+    margin-right: 600px;
+    margin-left: 430px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-radius: 60px;
+  }
+  .text_img{
+     
+      margin-top: 40px;
+      text-align: center;
+      color: wheat;
+      font-size: 30px;
+  }
+  .list_game{
+      color: darkorange;
+      text-transform: uppercase;
+  }
+  .click_back{
+    width: 15%;
+    height: 100%;
+  background-color: goldenrod;
+  border:none;
+  cursor: pointer;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+  
+}
+.click_next{
+    width: 15%;
+    height: 100%;
+  background-color: goldenrod;
+  border:none;
+  cursor: pointer;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 50px;
+  transition: 0.3s;
+  
+}
+.click_back:hover{
+    background-color: whitesmoke;  
+    width: 25%; 
+}
+
+
+.click_next:hover{
+    background-color: whitesmoke;
+    width: 25%;
+}
+.image img:hover{
+    width:35%;
+    height:35%;
+}
+footer{
+    
+    font-size: 26px;
+    margin-top: 70px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: gray;
+    padding: 20px;
+}
