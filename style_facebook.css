@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+body{
+    background-color: #212121;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.header_facebook{
+        background-color: blue;
+        color: whitesmoke;
+        text-align: center; 
+        font-weight: bold;
+        font-size: 40px;
+        border: none;
+        text-transform: uppercase;
+        border-radius: 45px;
+        font-family: 'BenchNine', sans-serif;
+    }
+    .box{
+        margin-left: 70px;
+        width: 90%;
+        padding-bottom: 50px;
+        border-style: solid;
+        border-color: whitesmoke;
+        border-width: 10px;
+        border-radius: 20px;
+    }
+.img{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.img img{
+    transition: 0.3s;
+    border-radius: 50%;
+}
+.information{
+    margin-left: 50px;
+    font-size: 22px;
+    color: wheat;
+    font-family: 'Mali', cursive;
+}
+.button_f{
+    font-size: 24px;
+    color: whitesmoke;
+    background-color: transparent;
+    border-color: white;
+    padding:20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.button_f:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.img img:hover{
+    width:25%;
+    height:25%;
+}
+.click_back{
+  text-align: center;
+    width: 25%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 550px;
+  background-color: goldenrod;
+  border:none;
+  cursor: pointer;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.click_back:hover{
+    background-color: whitesmoke;  
+    color:black;
+    border-radius: 50px;
+}
+footer{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 26px;
+    margin-top: 70px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: gray;
+    padding: 20px;
+}
