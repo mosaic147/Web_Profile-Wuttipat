@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+body{
+    background-color: #212121;
+   
+    padding: 0px;
+    font-family: 'BenchNine', sans-serif;
+   
+}
+
+.header{
+    background-color:wheat;
+    color: #212121;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    text-transform: uppercase;
+    margin :40px 25px;
+    border-radius: 45px;
+}
+.image{
+    text-align: center;
+     
+    
+}
+.image img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.myinfo{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: wheat;
+}
+
+.information{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: azure;
+
+}
+
+
+
+.click_back{
+  width: 15%;
+  background-color: goldenrod;
+  border:none;
+  
+  cursor: pointer;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+ 
+}
+.click_next{
+  width: 15%;
+  background-color: goldenrod;
+  border:none;
+  cursor: pointer;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center; 
+  transition: 0.3s;
+  
+}
+.container{
+    text-align: center;
+}
+
+
+.click_back:hover{
+    background-color: whitesmoke;  
+    width: 25%; 
+}
+
+
+.click_next:hover{
+    background-color: whitesmoke;
+    width: 25%;
+    
+}
+.image img:hover{
+    width: 25%;
+    height: 25%;
+}
+footer{
+    
+    font-size: 26px;
+    margin-top: 70px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: gray;
+    padding: 20px;
+}
+
