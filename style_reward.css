@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+
+body{
+    background-color: #212121;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.header{
+    width: 500px;
+    font-family: 'BenchNine', sans-serif;
+    text-align: center;
+    color:gold;
+    font-size: 46px;
+    text-transform: uppercase;
+    border-style:solid;
+    background-color: transparent;
+    border:5px whitesmoke solid;
+    margin-left: 500px;
+    border-radius: 30px
+    
+    
+}
+.image{
+    
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+.image img{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: snow;
+    border-width: 7px;
+ 
+}
+.head_texts{
+    font-size: 35px;
+    color:beige;
+    text-transform: uppercase;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: 'Mali', cursive;
+}
+.texts{
+    font-size: 30px;
+    text-align: center;
+    color:orange;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Mali', cursive;
+    
+}
+.image_loltour{
+    margin-top: 30px;
+}
+.line{
+    margin-top:25px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 5px;
+    border-radius: 20px;
+    width: 100%
+    
+}
+.image2{
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.image2 img{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: snow;
+    border-width: 7px;
+}
+.head_texts2{
+    font-size: 35px;
+    color:beige;
+    text-transform: uppercase;
+    margin-left: 450px;
+    margin-top: 20px;
+    font-family: 'Mali', cursive;
+}
+.texts2{
+    font-size: 30px;
+    text-align: center;
+    color:orange;
+    text-transform: uppercase;
+    margin-left: 480px;
+    margin-top: 10px;
+    font-family: 'Mali', cursive;
+    
+}
+.line2{
+    margin-top:20px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 5px;
+    border-radius: 20px;
+    width: 100%
+    
+}
+.click_back{
+    margin-left: 450px;
+    width: 20%;
+    height: 50%;
+  background-color: goldenrod;
+  border:none;
+  cursor: pointer;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+  
+}
+.click_next{
+    width: 20%;
+    height: 50%;
+  background-color: goldenrod;
+  border:none;
+  cursor: pointer;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 50px;
+  transition: 0.3s;
+  
+}
+.click_back:hover{
+    background-color: whitesmoke;  
+    width: 30%; 
+}
+
+
+.click_next:hover{
+    background-color: whitesmoke;
+    width: 30%;
+}
+footer{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 26px;
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: gray;
+    padding: 20px;
+}
